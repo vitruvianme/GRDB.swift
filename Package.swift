@@ -6,10 +6,10 @@ import PackageDescription
 let package = Package(
     name: "GRDB",
     platforms: [
-        .iOS("10.0"),
-        .macOS("10.10"),
-        .tvOS("9.0"),
-        .watchOS("2.0"),
+        .iOS(v14),
+        .macOS(v11),
+        .tvOS(v13),
+        .watchOS(v7),
     ],
     products: [
         .library(name: "GRDB", targets: ["GRDB"]),
